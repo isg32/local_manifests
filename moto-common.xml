@@ -6,6 +6,8 @@
         fetch="https://github.com/moto-hanoip/" />
     <remote name="main"
         fetch="https://github.com/anoosragh69/" />
+    <remote name="derp"
+        fetch="https://github.com/isg32/" />
     <remote name="aospa"
         fetch="https://github.com/AOSPA/" />
     <remote name="aospa-vendor"
@@ -22,7 +24,7 @@
         <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
     </project>
     <project path="device/motorola/targets" name="android_device_motorola_targets"
-        remote="main" revision="master" />
+        remote="derp" revision="master" />
     <!-- SM6150 (4.14) -->
     <project path="device/motorola/sm6150-common" name="android_device_motorola_sm6150-common"
         remote="hanoip" revision="14" />
